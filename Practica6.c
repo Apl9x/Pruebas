@@ -112,8 +112,10 @@ main(){
         	break;
 		}
     }
+    printf(" mejor recorrido: ");
 	for(i=0;i<=min+1;i++)printf("%3c",letras[recorrido[i]]);//imprime el recorrido 
      printf("\nPeso total= %d\n",totalPeso); //imprime el peso del recorrido
+    
     getchar();
     
 }
